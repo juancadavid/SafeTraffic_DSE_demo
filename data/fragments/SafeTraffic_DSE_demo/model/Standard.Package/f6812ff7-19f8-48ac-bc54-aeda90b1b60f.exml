@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="datatypes" version="4">
+  <OBJECT>
+    <ID name="datatypes" mc="Standard.Package" uid="f6812ff7-19f8-48ac-bc54-aeda90b1b60f"/>
+    <PID name="example.eu.myrtus" mc="Standard.Package" uid="8b2e3731-5e90-45dc-83bf-432e3c6450e6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[datatypes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="myrtus.DPE.datatypes.LayerMap" mc="Standard.DataType" uid="02f07a44-fba4-40a9-9443-23323cdfda4e"/>
+        <COMPID name="myrtus.DPE.datatypes.CostMap" mc="Standard.DataType" uid="f0f2d399-c8a1-4fe5-a6a4-595caba137ec"/>
+        <COMPID name="myrtus.DPE.datatypes.StepMap" mc="Standard.DataType" uid="9e42fc92-debe-465a-b107-eb0b8326b5fe"/>
+        <COMPID name="myrtus.DPE.datatypes.LakesideSystemParameters" mc="Standard.DataType" uid="020f27cd-b3b2-43ef-8d5a-35fc0c397205"/>
+        <OBJECT>
+          <ID name="myrtus.DPE.datatypes.Layer" mc="Standard.Enumeration" uid="bb86817b-fd64-4d4d-a2c3-d44f41864eac"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[myrtus.DPE.datatypes.Layer]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="edge" mc="Standard.EnumerationLiteral" uid="5ef50647-9911-4f55-97d6-6b66c92ed5d7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[edge]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="fog" mc="Standard.EnumerationLiteral" uid="a263e866-d81a-473a-a234-46976f89aae6"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[fog]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="cloud" mc="Standard.EnumerationLiteral" uid="82e0a676-cb5e-4f87-98dc-0aabdd82d456"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[cloud]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

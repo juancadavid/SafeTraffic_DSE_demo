@@ -16,6 +16,7 @@
       <COMP relation="OwnedElement">
         <COMPID name="nodetypes" mc="Standard.Package" uid="006805f6-096f-43b7-8960-8a839c1ba29f"/>
         <COMPID name="TrafficApplication" mc="Standard.Class" uid="50e090a8-1f04-4110-9356-c19f8587095a"/>
+        <COMPID name="datatypes" mc="Standard.Package" uid="f6812ff7-19f8-48ac-bc54-aeda90b1b60f"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="ToscaModel" mc="Infrastructure.Stereotype" uid="20565008-115d-4fad-800f-134ab276f611"/>

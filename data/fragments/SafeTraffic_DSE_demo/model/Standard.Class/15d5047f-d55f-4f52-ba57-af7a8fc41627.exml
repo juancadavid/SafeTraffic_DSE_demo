@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="comm_costs" version="4">
+  <OBJECT>
+    <ID name="comm_costs" mc="Standard.Class" uid="15d5047f-d55f-4f52-ba57-af7a8fc41627"/>
+    <PID name="SystemParameters" mc="Standard.Class" uid="90ba848e-9ee1-4caa-85d4-afdf4dd029fd"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[comm_costs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="edge" mc="Standard.Class" uid="734e8dbe-2b60-44da-85ec-979d1a5320a2"/>
+        <COMPID name="fog" mc="Standard.Class" uid="66e5a0c1-82f4-4cd0-b0f8-28f69dab1545"/>
+        <COMPID name="cloud" mc="Standard.Class" uid="1d0a1e4e-372b-4029-a5fc-9004669e3443"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TPropertyMapping" mc="Infrastructure.Stereotype" uid="b0f69853-92ba-4a8f-85d9-d3956f9b8b16"/>
+        <FOREIGNID name="TGroup" mc="Infrastructure.Stereotype" uid="572d5cb4-54c7-45d0-a9c8-3dc3677f9ef3"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

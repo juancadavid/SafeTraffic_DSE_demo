@@ -61,9 +61,6 @@
           <ID name="required_cpu_cores" mc="Standard.Attribute" uid="f1a87b1e-8190-4993-9f7f-8b1577509340"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="expected_network_throughput_mbps" mc="Standard.Attribute" uid="141067b0-d2b3-4c41-8d99-f7eef079d05b"/>
-        </REFOBJ>
-        <REFOBJ>
           <ID name="required_memory_gb" mc="Standard.Attribute" uid="bab36463-fd56-4e50-b066-86527e465016"/>
         </REFOBJ>
         <REFOBJ>
@@ -91,16 +88,10 @@
           <ID name="dataSensitivity" mc="Standard.Attribute" uid="04eec411-d816-4a22-8903-ef507e641f4d"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="expected_network_throughput_mbps" mc="Standard.Attribute" uid="8d7c7e57-ee14-4c9c-a036-387c795dd177"/>
-        </REFOBJ>
-        <REFOBJ>
           <ID name="required_memory_gb" mc="Standard.Attribute" uid="7749c7aa-b247-44df-95fe-e0a9cf84b9a8"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="required_memory_gb" mc="Standard.Attribute" uid="7df177d6-7a8f-4063-8503-61e08c2d0510"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="expected_network_throughput_mbps" mc="Standard.Attribute" uid="8a36d1b5-e3c0-489a-926c-571db582949f"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="port" mc="Standard.Attribute" uid="a57389a0-09c6-42c3-9409-9ddc40a28861"/>
@@ -136,16 +127,10 @@
           <ID name="dataIntegrity" mc="Standard.Attribute" uid="23c5e8bb-1d1e-49e6-af09-c2ab398eab15"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="expected_network_throughput_mbps" mc="Standard.Attribute" uid="fe9ef517-a2a6-4365-b5ef-b4e6d3117f4f"/>
-        </REFOBJ>
-        <REFOBJ>
           <ID name="onnxSpecFile" mc="Standard.Attribute" uid="d6443556-526e-47b7-98c0-5cf53de690f3"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="dataSensitivity" mc="Standard.Attribute" uid="83595d7a-6b47-4523-8def-5c424fddcd15"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="expected_network_throughput_mbps" mc="Standard.Attribute" uid="194070ca-a15d-4cd0-986b-68202b38894f"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="required_cpu_cores" mc="Standard.Attribute" uid="34696084-c770-47fc-9903-b290de48a35a"/>
@@ -175,9 +160,6 @@
           <ID name="required_memory_gb" mc="Standard.Attribute" uid="04f24c0b-8359-4324-92f2-2d2e111b80bf"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="expected_network_throughput_mbps" mc="Standard.Attribute" uid="87b3009f-c7ff-4dee-97df-0a586a273f6b"/>
-        </REFOBJ>
-        <REFOBJ>
           <ID name="required_cpu_cores" mc="Standard.Attribute" uid="077fc3f4-bab0-4d09-90b7-21719341ccfc"/>
         </REFOBJ>
         <REFOBJ>
@@ -197,9 +179,6 @@
         </REFOBJ>
         <REFOBJ>
           <ID name="dataIntegrity" mc="Standard.Attribute" uid="9b2dc617-f7dd-44ef-894f-908e72187ec0"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="expected_network_throughput_mbps" mc="Standard.Attribute" uid="c4f34028-d1a6-499e-ac0e-e4159d748d76"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="dockerImage" mc="Standard.Attribute" uid="4745bcf2-bd5b-47bd-927c-994e06a52e85"/>
