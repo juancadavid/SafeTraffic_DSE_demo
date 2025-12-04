@@ -155,6 +155,181 @@
       <LINK relation="Extension">
         <FOREIGNID name="TPolicy" mc="Infrastructure.Stereotype" uid="afe2c9ed-9fab-4a53-a2d2-b52d849d0799"/>
       </LINK>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="type" mc="Infrastructure.Dependency" uid="4414a3b5-9a90-4656-b170-5061202693aa"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[type]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <FOREIGNID name="Performance" mc="Standard.Class" uid="0c666064-29d1-4e91-8222-63095f528766"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="e8767a84-cb14-404c-a8a8-3209a7c47f98"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="aaf13468-b3ab-43cc-9783-0b5f75e742b8"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[type]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="role" mc="Infrastructure.TagType" uid="7637f2fd-b750-43c1-a15c-5d0b084ca1cd"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="targets" mc="Infrastructure.Dependency" uid="9fdad419-a761-443e-8dca-e5e5c8f36297"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[targets]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="MultisensorMerger" mc="Standard.Class" uid="6a72ec6c-037c-4d50-b10a-614aad101390"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="77aa56b6-23f5-45ea-a694-061510c511a5"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="4fd03167-f81d-405f-a537-0780921f0c68"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[targets]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="role" mc="Infrastructure.TagType" uid="7637f2fd-b750-43c1-a15c-5d0b084ca1cd"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="targets" mc="Infrastructure.Dependency" uid="95a77275-f28f-479b-a0cf-e65400cd1c27"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[targets]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="MapMatcher" mc="Standard.Class" uid="5f1ed528-3c97-4414-ae96-eff8f676353d"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="aaee0af5-e3b6-4bce-865d-89796e3aa2b9"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="b2e59143-dcee-4d53-a32a-2e6a2a3f0f66"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[targets]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="role" mc="Infrastructure.TagType" uid="7637f2fd-b750-43c1-a15c-5d0b084ca1cd"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="targets" mc="Infrastructure.Dependency" uid="785beea4-44bd-4832-a45d-89d4dfbb3e38"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[targets]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="RedLightDetection" mc="Standard.Class" uid="0983fe2a-fc96-46ca-ab36-e1dd59f6259e"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="af53257b-c70d-4cdd-83e7-0f886f83002f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="e7a6efa1-1829-45df-bf9f-a42de5d1dc5c"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[targets]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="role" mc="Infrastructure.TagType" uid="7637f2fd-b750-43c1-a15c-5d0b084ca1cd"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Properties">
+        <OBJECT>
+          <ID name="afe2c9ed-9fab-4a53-a2d2-b52d849d0799" mc="Infrastructure.TypedPropertyTable" uid="64ee44d6-54e4-49d0-9ab9-76e5c6de2e81"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[afe2c9ed-9fab-4a53-a2d2-b52d849d0799]]></ATT>
+            <ATT name="Content"><![CDATA[#Wed Dec 03 09:33:48 CET 2025
+description=Objective to minimize the dependency on more expensive parts of the architecture
+]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="TPolicyTable" mc="Infrastructure.PropertyTableDefinition" uid="ca3978f9-9ac6-4b7b-8785-a9d502a40e86"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

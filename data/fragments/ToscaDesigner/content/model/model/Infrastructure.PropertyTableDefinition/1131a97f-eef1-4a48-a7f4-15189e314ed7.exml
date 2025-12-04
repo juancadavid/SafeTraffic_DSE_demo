@@ -23,7 +23,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="22b8aa21-0210-4553-8d8d-df0fb1cf258f"/>
+                <ID name="" mc="Infrastructure.Note" uid="720e7fb4-1f65-4a08-a8f6-98b922719144"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.RelationshipOperationTypeTable.interfaceName.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -53,7 +53,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="9bebc542-eef8-4661-9064-1307a7453c1e"/>
+                <ID name="" mc="Infrastructure.Note" uid="d4180e75-f9c1-41d4-ba6c-cf6439ed80f6"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.RelationshipOperationTypeTable.operationName.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -83,7 +83,7 @@
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="2784a952-29f4-4f29-bd92-c51fa522f193"/>
+                <ID name="" mc="Infrastructure.Note" uid="ccae1b26-58a6-4c37-9b64-10546bd0a213"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[%propertydefinition.RelationshipOperationTypeTable.relationshipRef.description]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

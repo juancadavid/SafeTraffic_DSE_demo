@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="host" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="connects" version="4">
   <OBJECT>
-    <ID name="host" mc="Standard.Class" uid="cc7439b5-5c6b-4c5f-a024-02269612b866"/>
-    <PID name="Requirements" mc="Standard.Class" uid="b9054f70-5661-41ce-83aa-a30513cb9d1c"/>
+    <ID name="connects" mc="Standard.Class" uid="1a29787d-40b8-452e-b14e-8a4378f7bbf8"/>
+    <PID name="Requirements" mc="Standard.Class" uid="f353e885-e0f9-46aa-9ea6-809c95777483"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[host]]></ATT>
+      <ATT name="Name"><![CDATA[connects]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -20,21 +20,21 @@
       </LINK>
       <COMP relation="DependsOnDependency">
         <OBJECT>
-          <ID name="capability" mc="Infrastructure.Dependency" uid="3e9a2c97-f51b-435a-a273-8477c3e05d87"/>
+          <ID name="capability" mc="Infrastructure.Dependency" uid="39464358-4a8e-471e-9732-d983b0914a7c"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[capability]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <FOREIGNID name="host" mc="Standard.Class" uid="02aa33da-732d-40f6-8320-b891b3e16493"/>
+              <ID name="service" mc="Standard.Class" uid="a4224d03-1ac4-4829-a3e1-26545009bd09"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
             </LINK>
             <COMP relation="Tag">
               <OBJECT>
-                <ID name="" mc="Infrastructure.TaggedValue" uid="20fa2ef9-e725-4b50-b601-1d43d8e801e0"/>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="b109340f-4360-4b3c-8fbe-804ac413abee"/>
                 <ATTRIBUTES>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -42,7 +42,7 @@
                 <DEPENDENCIES>
                   <COMP relation="Actual">
                     <OBJECT>
-                      <ID name="" mc="Infrastructure.TagParameter" uid="be85d440-0286-4926-a232-5a2687e9a327"/>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="70b7a28e-681b-4612-ad2d-3d0953429c34"/>
                       <ATTRIBUTES>
                         <ATT name="Value"><![CDATA[capability]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -59,21 +59,21 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="node" mc="Infrastructure.Dependency" uid="e7aa853e-7c04-42fb-ba3c-b0f73eef65e2"/>
+          <ID name="node" mc="Infrastructure.Dependency" uid="ae0fe99f-c063-4e0d-94be-40180c87f78f"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[node]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="SensorTracker" mc="Standard.Class" uid="6146f157-067e-4355-8a99-31b14363a21f"/>
+              <ID name="MultisensorMerger" mc="Standard.Class" uid="6a72ec6c-037c-4d50-b10a-614aad101390"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
             </LINK>
             <COMP relation="Tag">
               <OBJECT>
-                <ID name="" mc="Infrastructure.TaggedValue" uid="70a5a88a-5a21-47d0-8f53-3541d31d1acd"/>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="633a5565-89b7-4013-8fda-526637a2295b"/>
                 <ATTRIBUTES>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -81,9 +81,50 @@
                 <DEPENDENCIES>
                   <COMP relation="Actual">
                     <OBJECT>
-                      <ID name="" mc="Infrastructure.TagParameter" uid="d5e877c5-30d7-4d85-9d5d-2bf73f726cc3"/>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="3c7619bb-c313-4e47-afb4-a133432c7c85"/>
                       <ATTRIBUTES>
                         <ATT name="Value"><![CDATA[node]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="role" mc="Infrastructure.TagType" uid="7637f2fd-b750-43c1-a15c-5d0b084ca1cd"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="relationship" mc="Infrastructure.Dependency" uid="98f98f23-09f4-44d8-9bb0-69d36d319f2b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[relationship]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <REFOBJ>
+                <ID name="connectsTo MultisensorMerger" mc="Standard.Association" uid="c84dc473-c8c9-4265-823d-1954fdf3fe0f"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="8b6f569b-6ee0-41c6-bb52-408ef2cb6d69"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="167f15dc-f7c9-4d7b-a531-7337e81d5f55"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[relationship]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>

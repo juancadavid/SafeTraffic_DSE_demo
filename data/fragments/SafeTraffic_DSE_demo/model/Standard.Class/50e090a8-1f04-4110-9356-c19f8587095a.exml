@@ -72,10 +72,9 @@
         </OBJECT>
       </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="Policies" mc="Standard.Class" uid="03183722-a561-4142-a7cf-f59d44fc4257"/>
         <COMPID name="compute_nodes" mc="Standard.Class" uid="3d979c16-c4be-4dc9-b71d-04d6d43956a0"/>
         <COMPID name="software_component_nodes" mc="Standard.Class" uid="8dbebdf3-8992-48cf-92d1-ab4356d5bc76"/>
-        <COMPID name="SystemParameters" mc="Standard.Class" uid="90ba848e-9ee1-4caa-85d4-afdf4dd029fd"/>
+        <COMPID name="Policies" mc="Standard.Class" uid="03183722-a561-4142-a7cf-f59d44fc4257"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TTopologyTemplate" mc="Infrastructure.Stereotype" uid="a52f433c-cf19-4033-99c2-81b4af708744"/>

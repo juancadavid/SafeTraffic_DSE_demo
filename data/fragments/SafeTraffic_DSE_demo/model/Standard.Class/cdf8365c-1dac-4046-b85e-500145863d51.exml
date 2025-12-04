@@ -17,6 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="host" mc="Standard.Class" uid="0f15e63f-4893-4899-b25f-69e4130b2dc4"/>
+        <COMPID name="connects" mc="Standard.Class" uid="e2b40b90-e34c-4019-a1bc-037cdbb157e0"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="RequirementsType" mc="Infrastructure.Stereotype" uid="1a39bd85-e28f-4e17-b2e9-a1803359cd83"/>

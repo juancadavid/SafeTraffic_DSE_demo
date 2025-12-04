@@ -445,7 +445,7 @@ required=false
           <DEPENDENCIES>
             <LINK relation="Type">
               <REFOBJ>
-                <ID name="myrtus.DPE.datatypes.Layer" mc="Standard.Enumeration" uid="bb86817b-fd64-4d4d-a2c3-d44f41864eac"/>
+                <ID name="myrtus.DPE.datatypes.LayerRestriction" mc="Standard.Enumeration" uid="05b76869-518d-4c44-804e-28661424f396"/>
               </REFOBJ>
             </LINK>
             <LINK relation="Extension">

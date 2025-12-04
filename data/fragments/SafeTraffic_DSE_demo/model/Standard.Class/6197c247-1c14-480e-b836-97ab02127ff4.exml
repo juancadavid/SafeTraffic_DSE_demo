@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="host" version="4">
   <OBJECT>
-    <ID name="host" mc="Standard.Class" uid="2aa9c30f-dfee-4cb7-9e34-ca3f99824dc1"/>
-    <PID name="Requirements" mc="Standard.Class" uid="3175263a-7346-411e-aff9-ddfec6fc0c73"/>
+    <ID name="host" mc="Standard.Class" uid="6197c247-1c14-480e-b836-97ab02127ff4"/>
+    <PID name="Requirements" mc="Standard.Class" uid="e7abb117-6414-40a0-a106-2023dd27d096"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -20,7 +20,7 @@
       </LINK>
       <COMP relation="DependsOnDependency">
         <OBJECT>
-          <ID name="capability" mc="Infrastructure.Dependency" uid="d1bc5e97-f83e-4eea-a899-7be1f42e346f"/>
+          <ID name="capability" mc="Infrastructure.Dependency" uid="c9b3de58-9496-4770-aa27-ce80e0ac76a9"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[capability]]></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -34,7 +34,7 @@
             </LINK>
             <COMP relation="Tag">
               <OBJECT>
-                <ID name="" mc="Infrastructure.TaggedValue" uid="1da8698b-d233-44ac-979c-18fc3abddbb4"/>
+                <ID name="" mc="Infrastructure.TaggedValue" uid="9d2ca9cc-af4a-472c-8695-8d382f2fa30f"/>
                 <ATTRIBUTES>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -42,7 +42,7 @@
                 <DEPENDENCIES>
                   <COMP relation="Actual">
                     <OBJECT>
-                      <ID name="" mc="Infrastructure.TagParameter" uid="e0adaf96-26d4-4cfe-9136-4b58ab95c35a"/>
+                      <ID name="" mc="Infrastructure.TagParameter" uid="840381e0-ec25-472a-ad0a-ad46038c4f27"/>
                       <ATTRIBUTES>
                         <ATT name="Value"><![CDATA[capability]]></ATT>
                         <ATT name="status">1970354901745664</ATT>

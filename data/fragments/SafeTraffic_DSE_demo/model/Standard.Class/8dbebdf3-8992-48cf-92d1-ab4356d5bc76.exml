@@ -16,10 +16,11 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
+        <COMPID name="SensorTracker" mc="Standard.Class" uid="6146f157-067e-4355-8a99-31b14363a21f"/>
         <COMPID name="MultisensorMerger" mc="Standard.Class" uid="6a72ec6c-037c-4d50-b10a-614aad101390"/>
         <COMPID name="MapMatcher" mc="Standard.Class" uid="5f1ed528-3c97-4414-ae96-eff8f676353d"/>
         <COMPID name="RedLightDetection" mc="Standard.Class" uid="0983fe2a-fc96-46ca-ab36-e1dd59f6259e"/>
-        <COMPID name="IllegalTrajectoryDetection" mc="Standard.Class" uid="8bd27a00-df4c-4931-a516-04a0558a2138"/>
+        <COMPID name="SystemParameters" mc="Standard.Class" uid="90ba848e-9ee1-4caa-85d4-afdf4dd029fd"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="TGroup" mc="Infrastructure.Stereotype" uid="572d5cb4-54c7-45d0-a9c8-3dc3677f9ef3"/>

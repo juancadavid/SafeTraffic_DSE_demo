@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SystemParameters" version="4">
   <OBJECT>
     <ID name="SystemParameters" mc="Standard.Class" uid="90ba848e-9ee1-4caa-85d4-afdf4dd029fd"/>
-    <PID name="TrafficApplication" mc="Standard.Class" uid="50e090a8-1f04-4110-9356-c19f8587095a"/>
+    <PID name="software_component_nodes" mc="Standard.Class" uid="8dbebdf3-8992-48cf-92d1-ab4356d5bc76"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -103,7 +103,7 @@
         <COMPID name="step_costs" mc="Standard.Class" uid="fce4d415-55cb-48bb-adfb-b74e243c301c"/>
       </COMP>
       <LINK relation="Extension">
-        <FOREIGNID name="TNodeTemplate" mc="Infrastructure.Stereotype" uid="1a20bf91-0a92-434a-9d1f-35c86788784e"/>
+        <FOREIGNID name="TParameter" mc="Infrastructure.Stereotype" uid="88f765a0-a1fe-42d8-9b52-f45ff541469f"/>
       </LINK>
       <COMP relation="DependsOnDependency">
         <OBJECT>

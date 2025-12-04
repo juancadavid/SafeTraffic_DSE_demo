@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Requirements" version="4">
   <OBJECT>
-    <ID name="Requirements" mc="Standard.Class" uid="3175263a-7346-411e-aff9-ddfec6fc0c73"/>
-    <PID name="IllegalTrajectoryDetection" mc="Standard.Class" uid="8bd27a00-df4c-4931-a516-04a0558a2138"/>
+    <ID name="Requirements" mc="Standard.Class" uid="e7abb117-6414-40a0-a106-2023dd27d096"/>
+    <PID name="SensorTracker" mc="Standard.Class" uid="6146f157-067e-4355-8a99-31b14363a21f"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -16,7 +16,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="host" mc="Standard.Class" uid="2aa9c30f-dfee-4cb7-9e34-ca3f99824dc1"/>
+        <COMPID name="host" mc="Standard.Class" uid="6197c247-1c14-480e-b836-97ab02127ff4"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="RequirementsType" mc="Infrastructure.Stereotype" uid="1a39bd85-e28f-4e17-b2e9-a1803359cd83"/>

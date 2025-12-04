@@ -576,10 +576,82 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <OBJECT>
+          <ID name="layer_restriction" mc="Standard.Attribute" uid="a1ec4be0-2e1a-4a49-b1d4-77ecf595633f"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"><![CDATA[none]]></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[layer_restriction]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <REFOBJ>
+                <ID name="myrtus.DPE.datatypes.LayerRestriction" mc="Standard.Enumeration" uid="05b76869-518d-4c44-804e-28661424f396"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="TPropertyDef" mc="Infrastructure.Stereotype" uid="a5792de9-2c94-4367-970b-d370cf7c1555"/>
+            </LINK>
+            <COMP relation="DependsOnDependency">
+              <OBJECT>
+                <ID name="type" mc="Infrastructure.Dependency" uid="5ce44351-d248-49da-8806-bab2b6f3aeb6"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[type]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <REFOBJ>
+                      <ID name="layer_restriction" mc="Standard.Attribute" uid="37e06241-9a42-44c0-9560-84f6156a1829"/>
+                    </REFOBJ>
+                  </LINK>
+                  <LINK relation="Extension">
+                    <FOREIGNID name="MDAAssocDep" mc="Infrastructure.Stereotype" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e"/>
+                  </LINK>
+                  <COMP relation="Tag">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.TaggedValue" uid="3323d562-4184-4d71-a94b-f88814bc79b5"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Actual">
+                          <OBJECT>
+                            <ID name="" mc="Infrastructure.TagParameter" uid="973cb18c-219f-4b64-982f-93bd46e6335b"/>
+                            <ATTRIBUTES>
+                              <ATT name="Value"><![CDATA[type]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Definition">
+                          <FOREIGNID name="role" mc="Infrastructure.TagType" uid="7637f2fd-b750-43c1-a15c-5d0b084ca1cd"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="87b93a3f-c312-4f1e-bd33-e9883a00a623"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="9adda8a6-4cbe-4b95-bcfa-c75c10a78ea6"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -597,11 +669,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="IllegalTrajectoryDetection" mc="Standard.Class" uid="8bd27a00-df4c-4931-a516-04a0558a2138"/>
+              <ID name="MultisensorMerger" mc="Standard.Class" uid="6a72ec6c-037c-4d50-b10a-614aad101390"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="11ea01b8-0382-4a28-8003-573f2b103bb1"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="f1cab24b-7086-4fdf-92ee-e857c9ccfef0"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -619,13 +691,13 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="87b93a3f-c312-4f1e-bd33-e9883a00a623"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="9adda8a6-4cbe-4b95-bcfa-c75c10a78ea6"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="con_ConnectsTo_3" mc="Standard.Association" uid="303c0fe8-3640-471b-859a-50682acb10dc"/>
+                      <ID name="connectsTo MultisensorMerger" mc="Standard.Association" uid="c84dc473-c8c9-4265-823d-1954fdf3fe0f"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[con_ConnectsTo_3]]></ATT>
+                        <ATT name="Name"><![CDATA[connectsTo MultisensorMerger]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
@@ -634,7 +706,7 @@
                         </LINK>
                         <COMP relation="DependsOnDependency">
                           <OBJECT>
-                            <ID name="relationshipType" mc="Infrastructure.Dependency" uid="5c61a3cc-8a0c-4345-b55c-c512e06a80d1"/>
+                            <ID name="relationshipType" mc="Infrastructure.Dependency" uid="5dcd0189-d541-4b63-97d0-6f645d9c04ad"/>
                             <ATTRIBUTES>
                               <ATT name="Name"><![CDATA[relationshipType]]></ATT>
                               <ATT name="status">1970354901745664</ATT>
@@ -648,7 +720,7 @@
                               </LINK>
                               <COMP relation="Tag">
                                 <OBJECT>
-                                  <ID name="" mc="Infrastructure.TaggedValue" uid="7a2ef15f-a3b7-4f1a-b317-007bdba354b6"/>
+                                  <ID name="" mc="Infrastructure.TaggedValue" uid="ac3bccf2-1df5-4c09-b161-69b668f67c53"/>
                                   <ATTRIBUTES>
                                     <ATT name="Name"></ATT>
                                     <ATT name="status">1970354901745664</ATT>
@@ -656,7 +728,7 @@
                                   <DEPENDENCIES>
                                     <COMP relation="Actual">
                                       <OBJECT>
-                                        <ID name="" mc="Infrastructure.TagParameter" uid="1e5cb629-b06a-40ac-8f5f-f7239e307fe5"/>
+                                        <ID name="" mc="Infrastructure.TagParameter" uid="bd04738a-985a-4304-8cc5-4290063f217e"/>
                                         <ATTRIBUTES>
                                           <ATT name="Value"><![CDATA[relationshipType]]></ATT>
                                           <ATT name="status">1970354901745664</ATT>
@@ -683,7 +755,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="con_ConnectsTo_3" mc="Standard.Association" uid="303c0fe8-3640-471b-859a-50682acb10dc"/>
+              <COMPID name="connectsTo MultisensorMerger" mc="Standard.Association" uid="c84dc473-c8c9-4265-823d-1954fdf3fe0f"/>
             </COMP>
             <LINK relation="Extension">
               <FOREIGNID name="TRelationshipTemplateEnd" mc="Infrastructure.Stereotype" uid="3b481377-24b9-4efa-bfae-9110a4732892"/>
